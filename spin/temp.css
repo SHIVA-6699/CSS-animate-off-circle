@@ -1,0 +1,86 @@
+.con
+{
+    width: 100px;
+    height: 100px;
+  
+    clip-path: circle(50% at 0 50px);
+
+    transform: rotate(90deg);
+  position: relative;
+  top:100px;
+   background-color: red;
+   animation: scroll infinite ease-in-out 2s;
+}
+@keyframes scroll {
+  0%
+  {
+    transform: rotate(90deg);
+  }
+
+50%
+
+{
+    transform: rotate(270deg);
+}
+100%
+{
+    transform: rotate(90deg);
+}
+}
+.ball1
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left:90px;
+    top:-20px;
+    animation: ball infinite ease-in-out 2s;
+}
+@keyframes ball {
+    0%
+    {
+        position: relative;
+    }
+    50%
+    {
+        position: relative;
+        top:-50px;
+    }
+    100%
+    {
+
+    }
+    
+}
+.ball2
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left:90px;
+    top:80px;
+    animation: balls infinite ease-in-out 2s;  
+}
+@keyframes balls {
+    0%
+ {
+    position: relative;
+    top:100px;
+ }
+
+    50%
+{
+    position: relative;
+    top:80px;
+   
+}
+100%
+{
+    position: relative;
+    top:100px;
+}
+}
